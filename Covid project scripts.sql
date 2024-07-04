@@ -58,6 +58,8 @@ order by date
 
 
 --Now let's move to the Vaccination dataset
+-- Using CTE
+ 
 with PopVsVacc (Continent, Location, Date,  New_vaccinations, Population,CumulativeVaccins)
 as
 (
